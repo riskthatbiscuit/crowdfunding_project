@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Music Near Me",
+    "description": "A mobile app that will send you notifications whenever a concert is playing in your area.",
+    "needed_funding": 5000
+  },
+  {
+    "name": "The Ultimate Tech Quiz",
+    "description": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!",
+    "needed_funding": 10000
+  },
+  {
+    "name": "Roll 'Em Up",
+    "description": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes.",
+    "needed_funding": 800
+  },
+  {
+    "name": "Green Thumb",
+    "description": "An app that uses AI to diagnose plant diseases from photos and provides care tips.",
+    "needed_funding": 7000
+  },
+  {
+    "name": "Virtual Workout Buddy",
+    "description": "A virtual reality fitness program that pairs you with a digital workout partner.",
+    "needed_funding": 15000
+  },
+  {
+    "name": "SafeRoute",
+    "description": "A navigation app focused on personal safety, suggesting the safest routes based on time of day and crime statistics.",
+    "needed_funding": 12000
+  },
+  {
+    "name": "EduPlay",
+    "description": "An educational platform for children with games that adapt to their learning pace and style.",
+    "needed_funding": 8500
+  },
+  {
+    "name": "MealPrepPro",
+    "description": "An app for meal planning and prep with customized diet and nutrition goals.",
+    "needed_funding": 4000
+  },
+  {
+    "name": "EcoRide",
+    "description": "A service that connects users with electric vehicle rideshares in their area.",
+    "needed_funding": 20000
+  },
+  {
+    "name": "MindMender",
+    "description": "A mental health app providing daily mindfulness and coping exercises for anxiety and depression.",
+    "needed_funding": 5500
+  },
+  {
+    "name": "TechTutor",
+    "description": "An online platform for on-demand technology tutoring, covering topics like coding, software use, and digital literacy.",
+    "needed_funding": 9000
+  },
+  {
+    "name": "Home Harvest",
+    "description": "An IoT solution for urban farming, with sensors and an app to manage small-scale home gardens.",
+    "needed_funding": 11000
+  },
+  {
+    "name": "StudyBuddy",
+    "description": "An app that uses machine learning to create custom study plans and learning materials for students.",
+    "needed_funding": 6000
+  },
+  {
+    "name": "TravelTailor",
+    "description": "A travel planning app that suggests itineraries based on personal preferences and past trips.",
+    "needed_funding": 13000
+  },
+  {
+    "name": "Senior Companion",
+    "description": "A service that provides virtual companionship and assistance to the elderly, using AI chatbots.",
+    "needed_funding": 7500
+  },
+  {
+    "name": "FitFuel",
+    "description": "A subscription service delivering personalized, healthy meal kits for fitness enthusiasts.",
+    "needed_funding": 14000
+  },
+  {
+    "name": "PetPal",
+    "description": "A pet care app that tracks your pet's health, diet, and exercise routines.",
+    "needed_funding": 4500
+  },
+  {
+    "name": "SmartBudget",
+    "description": "A financial planning app that uses AI to help users manage their expenses and save money.",
+    "needed_funding": 10000
+  },
+  {
+    "name": "Artificial Artisan",
+    "description": "A platform for creating custom digital art pieces using AI algorithms.",
+    "needed_funding": 5000
+  },
+  {
+    "name": "Language Leap",
+    "description": "A language learning app that uses immersive techniques and native speaker interactions.",
+    "needed_funding": 9500
+  }
+]

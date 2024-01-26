@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Sal",
+    "email": "sal@hotmail.com",
+    "password": "password12345"
+  },
+  {
+    "name": "Lernantino",
+    "email": "lernantino@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "name": "Amiko",
+    "email": "amiko2k20@aol.com",
+    "password": "password12345"
+  },
+  {
+    "name": "MaxTech",
+    "email": "maxtech@techmail.com",
+    "password": "password12345"
+  },
+  {
+    "name": "EvaTheCoder",
+    "email": "evacodes@programmer.net",
+    "password": "password12345"
+  },
+  {
+    "name": "GardenGuru",
+    "email": "gardenguru@naturemail.com",
+    "password": "password12345"
+  },
+  {
+    "name": "FitnessFanatic",
+    "email": "fitfanatic@healthhub.com",
+    "password": "password12345"
+  },
+  {
+    "name": "TravelTrekkie",
+    "email": "traveltrekkie@explorer.com",
+    "password": "password12345"
+  },
+  {
+    "name": "BookwormBelle",
+    "email": "bookwormbelle@readersworld.com",
+    "password": "password12345"
+  },
+  {
+    "name": "ChefCharlie",
+    "email": "chefcharlie@culinarymail.com",
+    "password": "password12345"
+  },
+  {
+    "name": "ArtisticAmy",
+    "email": "artisticamy@artlovers.com",
+    "password": "password12345"
+  }
+]
