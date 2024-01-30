@@ -1,14 +1,15 @@
-<div class="text-center">
-    <h2>{{name}}</h2>
-    <p>{{{get_emoji}}}</p>
-    <p>{{description}}</p>
-    <p>Created by {{user.name}} on {{format_date date_created}}</p>
-    <p>
-        <span for="img" aria-label="money">💲</span>
-        <span class="dollar-amount">{{format_amount needed_funding}}</span>
-        needed
+<div class="text-center max-w-xl mx-auto p-4 shadow-lg rounded-lg bg-white">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">{{name}}</h2>
+    <div class="text-4xl mb-4">{{{get_emoji}}}</div>
+    <p class="text-gray-600 mb-4">{{description}}</p>
+    <p class="text-sm text-gray-500 mb-4">Created by <span class="text-gray-700 font-medium">{{user.name}}</span> on
+        <span class="text-gray-700 font-medium">{{format_date date_created}}</span></p>
+    <p class="text-lg font-semibold mb-4">
+        <span aria-label="money">💲</span>
+        <span class="dollar-amount">{{format_amount needed_funding}}</span> needed
     </p>
-    <p>
-        <button class="btn btn-primary">Fund this project!</button>
-    </p>
+    <button
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+        Fund this project!
+    </button>
 </div>
