@@ -1,25 +1,23 @@
-<div class="row">
-    {{#each projects as |project|}}
-    <div class="card project col-sm-6 col-lg-4 ">
-        <div class="card-body">
-            <h2 class="card-header">
-                <!-- Call helper function with triple brackets to render the emoji span as HTML -->
-                {{{get_emoji}}}
-                <a href="/project/{{project.id}}">{{project.name}}</a>
-            </h2>
-            <p class="card-body">
-                <span for="img" aria-label="money">💲</span>
-                <!-- Pass needed_funding value to the helper function -->
-                <span class="dollar-amount">{{format_amount project.needed_funding}}</span>
-                needed!
-            </p>
-            <p>Created by {{project.user.name}} on {{format_date project.date_created}}</p>
-        </div>
-        <div class="">
-            <p>
-                {{project.description}}
-            </p>
-        </div>
+<div class="bg-white">
+    <div class="mx-auto max-w-2xl px-4 py-4 sm:px-6 sm:py-4 lg:max-w-7xl lg:px-8">
+        <h2 class="sr-only">Projects</h2>
+            <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+                {{#each projects as |project|}}
+                <a href="/project/{{project.id}}" class="bg-yellow-100 p-3 rounded-lg border-2 border-yellow-400 border-dotted">
+                    <div class="h-20">
+                        <h3 class="text-2xl text-black text-center align-middle">{{project.name}}</h3>
+                    </div>
+                    <div class="h-30">
+                        <p class="mt-1 text-2xl font-medium text-gray-900 text-center bg-green-100 border rounded-lg">${{format_amount project.needed_funding}}</p>
+                        <p class="mt-1 text-m font-medium text-gray-900">Created by {{project.user.name}} on {{format_date
+                            project.date_created}}</p>
+                    </div>
+                    <br>
+                    <div class="h-20">
+                        <p class="line-clamp-3 text-base text-gray-900">{{project.description}}</p>
+                    </div>
+                {{/each}}
+            </div>
     </div>
-    {{/each}}
 </div>
+
